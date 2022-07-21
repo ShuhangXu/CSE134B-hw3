@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Shuhang</title>
+    <link rel="icon" type="image/x-icon" href="Media/logo.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="hamburgerMenu.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-container">
+        <a href="index.html" title="Back to homepage">
+            <img src="Media/logo.png" height=100vh alt="Shuhang's Logo" id="logo">
+        </a>
+        <!-- Navbar -->
+        <nav id="header-nav">
+            <!-- Shuhang's Logo -->
+
+            <ul class="header-nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+            <nav id="sidebar-menu">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </label>
+
+        <div class="overlay"></div>
+    </div>
+</header>
+<main>
+    <h1> Contact Shuhang</h1>
+
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Leave me a message here</legend>
+            <div class="formfield">
+                <label for="firstNameFld">First Name:</label>
+                <input type="text" name="firstNameFld" id="firstNameFld" placeholder="Your First Name" required>
+
+                <label for="lastNameFld">Last Name:</label>
+                <input type="text" name="lastNameFld" id="lastNameFld" placeholder="Your Last Name" required>
+            </div>
+
+            <br>
+
+            <label for="emailFld">Email:</label>
+            <input type="text" name="emailFld" id="emailFld" placeholder="Your Email">
+
+            <br>
+
+            <label for="source">How do you find my information:</label>
+            <select id="source">
+                <option value="Linkedin">Linkedin</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Google Search">Google Search</option>
+                <option value="UCSD Website">UCSD Website</option>
+                <option value="Friends">Friends</option>
+            </select>
+
+            <br>
+
+            <label for="purpose">How can I help your organization:</label>
+            <select name="purpose" id="purpose">
+                <optgroup label="Internship">
+                    <option value="summer">Summer</option>
+                    <option value="part-time">Part-time</option>
+                </optgroup>
+                <optgroup label="Research">
+                    <option value="researchAssistant">Research Assistant</option>
+                    <option value="researcher">Undergraduate Researcher</option>
+                </optgroup>
+                <optgroup label="Full-time Job">
+                    <option value="softwareDeveloper">Software Developer</option>
+                    <option value="productManager">Product Manager</option>
+                </optgroup>
+            </select>
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="60"></textarea>
+
+            <br><br>
+
+            <button type="submit" onclick="alert('Thank you! I am looking forward to talking with you soon.')" >Submit</button>
+
+            <br><br>
+            <details>
+                <summary>
+                    See Our Confidential Policy
+                </summary>
+                Your information will be well protected by me and it will only show to Shuhang Xu, the owner of this website.
+            </details>
+        </fieldset>
+
+    </form>
+
+    <br><br>
+</main>
+<footer>
+    <hr>
+    <p>Copyright @Great_Shuhang</p>
+</footer>
+</body>
+</html>
