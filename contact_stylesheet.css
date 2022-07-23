@@ -1,5 +1,5 @@
-#resume{
-    background-image: url("Media/starBlue.jpg");
+#contact{
+    background-image: url("Media/geisel.jpg");
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -9,18 +9,18 @@
     color:white;
     text-align: center;
 }
-#resume h1{
+#contact h1{
     font-size: xxx-large;
 }
-#resume h2{
+#contact h2{
     font-size: xx-large;
 }
 
-.resume{
-    text-align: center;
-    
+main{
+    location: center;
 }
 
-h3{
-    font-size: xx-large;
+.formfield{
+    display: flex;
+    flex-wrap: nowrap;
 }

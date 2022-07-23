@@ -62,4 +62,18 @@
     width: 10vw;
     top: 30vh;
     left: 85vw;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background: steelblue;
+}
+
+main{
+    color: white;
 }

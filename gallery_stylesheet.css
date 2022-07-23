@@ -2,6 +2,7 @@
     text-align: center;
     position: center;
 }
+
 #gallery{
     background-image: url("Media/galleryBackground.jpg");
     height: 100vh;
@@ -40,4 +41,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+#video, #picture, #socialMedia{
+    font-size: 1.5rem;
+}
+
+#video p, #socialMedia > table{
+    font-size: 0.8em;
 }

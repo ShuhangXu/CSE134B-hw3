@@ -56,3 +56,23 @@
         width: 100%;
     }
 }
+
+.li_title{
+    font-size: x-large;
+}
+
+.ul_title{
+    font-size: 0.8em;
+}
+
+h3{
+    font-size: xx-large;
+}
+
+body{
+    background: steelblue;
+}
+
+main{
+    color: white;
+}
