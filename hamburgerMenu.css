@@ -73,10 +73,16 @@
 
 
 @media screen and (max-width: 750px) {
-    #header-nav, .sideBar {
+    #header-nav {
         display: none;
     }
     #hamburger-menu {
         display: inline;
+    }
+}
+
+@media (max-width: 1200px){
+    .sideBar{
+        display: none;
     }
 }
