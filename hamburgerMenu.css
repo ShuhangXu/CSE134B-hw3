@@ -25,7 +25,7 @@
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background: steelblue;
+    background: var(--steelblue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
     flex: none;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@
 }
 
 .menu-wrap .menu > div {
-    background: steelblue;
+    background: var(--steelblue);
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
@@ -129,7 +129,7 @@
 
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: #fff;
+    color: var(--white);
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -153,4 +153,9 @@
     .sideBar{
         display: none;
     }
+}
+
+:root{
+    --steelblue: steelblue;
+    --white: #fff;
 }
